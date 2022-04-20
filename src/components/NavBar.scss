@@ -1,0 +1,17 @@
+@import "../styles/Styles.scss";
+
+.nav-dropdown a {
+    text-decoration: none;
+    color: #000;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-between;
+    height: 6em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
