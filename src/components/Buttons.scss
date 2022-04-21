@@ -1,0 +1,24 @@
+@import "../styles/Styles.scss";
+
+.login-button {
+    background-color: $ALMOST_WHITE;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.login-button:hover {
+    color: $ALMOST_BLACK;
+}
+
+.register-button {
+    background-color: $ALMOST_WHITE;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    border: 0.15rem solid $MEDIUM_GRAY;
+}
+
+.register-button:hover {
+    color: $ALMOST_BLACK;
+    border: 0.15rem solid $ALMOST_BLACK;
+}
