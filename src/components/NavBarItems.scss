@@ -1,0 +1,35 @@
+@import "../styles/Styles.scss";
+
+.dropdown-toggle {
+    color: $MEDIUM_GRAY;
+    font-weight: $FONT_WEIGHT_700;
+}
+
+.dropdown-toggle:hover {
+    color: $ALMOST_BLACK;
+}
+
+.nav-link {
+    color: $MEDIUM_GRAY;
+    font-weight: $FONT_WEIGHT_700;
+}
+
+.nav-link:hover {
+    color: $ALMOST_BLACK;
+}
+
+.nav-link:focus {
+    color: $ALMOST_BLACK;
+}
+
+.dropdown-menu {
+    min-width: 0;
+    padding: 1rem 0;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-item {
+    padding: 0.25rem 1.4rem;
+}
