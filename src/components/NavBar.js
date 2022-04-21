@@ -1,18 +1,35 @@
 import React from "react";
-import { Nav, NavDropdown } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
+import { ReactComponent as Logo } from "../assets/logo.svg";
+import { LoginButton, RegisterButton } from "./Buttons";
 import "./NavBar.scss";
+import {
+  AboutCategory,
+  CareersCategory,
+  CompanyCategory,
+  FeaturesCategory
+} from "./NavBarItems";
 
 export default function NavBar() {
   return (
-    <Nav>
-      <NavDropdown className="nav-dropdown" title="Features">
-        <div className="item-container">
-          <NavDropdown.Item eventKey="todo-list">Todo List</NavDropdown.Item>
-          <NavDropdown.Item eventKey="calendar">Calendar</NavDropdown.Item>
-          <NavDropdown.Item eventKey="reminders">Reminders</NavDropdown.Item>
-          <NavDropdown.Item eventKey="planning">Planning</NavDropdown.Item>
+    <>
+      <div className="nav-bar-container">
+        <div className="logo-container">
+          <Logo />
         </div>
-      </NavDropdown>
-    </Nav>
+
+        <Nav>
+          <FeaturesCategory />
+          <CompanyCategory />
+          <CareersCategory />
+          <AboutCategory />
+        </Nav>
+
+        <div className="button-container">
+          <LoginButton />
+          <RegisterButton />
+        </div>
+      </div>
+    </>
   );
 }
