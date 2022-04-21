@@ -1,5 +1,14 @@
 @import "./styles/Styles.scss";
 
+@font-face {
+  font-family: "EpilogueRegular";
+  src: local("EpilogueRegular"), url("./assets/fonts/Epilogue-Regular.ttf") format("truetype");
+}
+
+* {
+  font-family: "EpilogueRegular";
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
