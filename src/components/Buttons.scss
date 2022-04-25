@@ -5,6 +5,8 @@
     padding: 0.5rem 1rem;
     border-radius: 0.8rem;
     border: none;
+    font-weight: $FONT_WEIGHT_700;
+    transition: ease-in-out 0.3s;
 }
 
 .login-button:hover {
@@ -16,6 +18,8 @@
     padding: 0.5rem 1rem;
     border-radius: 0.8rem;
     border: 0.15rem solid $MEDIUM_GRAY;
+    font-weight: $FONT_WEIGHT_700;
+    transition: ease-in-out 0.3s;
 }
 
 .register-button:hover {

@@ -1,10 +1,10 @@
 import "./App.scss";
-import NavBar from "./components/NavBar";
+import HomeView from "./views/HomeView";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <HomeView />
     </>
   );
 }

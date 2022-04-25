@@ -1,12 +1,16 @@
 import React from "react";
 import { Nav, NavDropdown } from "react-bootstrap";
 import "./NavBarItems.scss";
+import { ReactComponent as CalendarIcon } from "../assets/icon-calendar.svg";
+import { ReactComponent as PlanningIcon } from "../assets/icon-planning.svg";
+import { ReactComponent as RemindersIcon } from "../assets/icon-reminders.svg";
+import { ReactComponent as TodoIcon } from "../assets/icon-todo.svg";
 
 const featureNavItems = [
-  { key: "todo-list", icon: "", name: "Todo List" },
-  { key: "calendar", icon: "", name: "Calendar" },
-  { key: "reminders", icon: "", name: "Reminders" },
-  { key: "planning", icon: "", name: "Planning" },
+  { key: "todo-list", icon: TodoIcon, name: "Todo List" },
+  { key: "calendar", icon: CalendarIcon, name: "Calendar" },
+  { key: "reminders", icon: RemindersIcon, name: "Reminders" },
+  { key: "planning", icon: PlanningIcon, name: "Planning" },
 ];
 
 const companyNavItems = [
@@ -21,7 +25,8 @@ function FeaturesCategory() {
       {featureNavItems.map((featureItems) => {
         return (
           <NavDropdown.Item eventKey={featureItems.key}>
-            {featureItems.name}
+              <featureItems.icon className="icon"/>
+              {featureItems.name}
           </NavDropdown.Item>
         );
       })}
@@ -60,4 +65,3 @@ function AboutCategory() {
 }
 
 export { FeaturesCategory, CompanyCategory, CareersCategory, AboutCategory };
-
