@@ -1,0 +1,13 @@
+.app-header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+
+    &__logo {
+        padding: 1rem;
+    }
+
+    &__menu {
+        padding: 1rem;
+    }
+}

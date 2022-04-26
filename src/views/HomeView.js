@@ -6,12 +6,14 @@ import { ReactComponent as MeetLogo } from "../assets/client-meet.svg";
 import ImageHeroDesktop from "../assets/image-hero-desktop.png";
 import ImageHeroMobile from "../assets/image-hero-mobile.png";
 import NavBar from "../components/NavBar";
+import AppHeader from "../components/AppHeader";
 import "./HomeView.scss";
 
 export default function HomeView() {
   return (
     <>
       <NavBar />
+      <AppHeader />
 
       <div className="home-content-container">
         <div className="left-content-container">
@@ -33,8 +35,16 @@ export default function HomeView() {
         </div>
 
         <div className="right-content-container">
-          <img className="right-content-container__image-hero-desktop" src={ImageHeroDesktop} alt="Hero Desktop" />
-          <img className="right-content-container__image-hero-mobile" src={ImageHeroMobile} alt="Hero Mobile" />
+          <img
+            className="right-content-container__image-hero-desktop"
+            src={ImageHeroDesktop}
+            alt="Hero Desktop"
+          />
+          <img
+            className="right-content-container__image-hero-mobile"
+            src={ImageHeroMobile}
+            alt="Hero Mobile"
+          />
         </div>
       </div>
     </>
