@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import { ReactComponent as Menu } from "../assets/icon-menu.svg";
+import MenuSlider from "./MenuSlider";
 import "./AppHeader.scss";
 
 export default function AppHeader() {
@@ -12,6 +13,7 @@ export default function AppHeader() {
 
       <div className="app-header-container__menu">
         <Menu />
+        <MenuSlider />
       </div>
     </div>
   );
