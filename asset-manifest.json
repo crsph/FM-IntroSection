@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/FM-IntroSection/static/css/main.b5f70641.css",
+    "main.js": "/FM-IntroSection/static/js/main.6bc613d2.js",
+    "static/js/787.169f9516.chunk.js": "/FM-IntroSection/static/js/787.169f9516.chunk.js",
+    "static/media/image-hero-desktop.png": "/FM-IntroSection/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/Epilogue-Regular.ttf": "/FM-IntroSection/static/media/Epilogue-Regular.8da7ed4b0357411aff17.ttf",
+    "static/media/image-hero-mobile.png": "/FM-IntroSection/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/client-databiz.svg": "/FM-IntroSection/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/FM-IntroSection/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/client-maker.svg": "/FM-IntroSection/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/client-meet.svg": "/FM-IntroSection/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/client-audiophile.svg": "/FM-IntroSection/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/FM-IntroSection/index.html",
+    "static/media/icon-reminders.svg": "/FM-IntroSection/static/media/icon-reminders.92229178b2bf60f6b49d74d0c596d865.svg",
+    "static/media/icon-planning.svg": "/FM-IntroSection/static/media/icon-planning.1d415e47c3d014d30f1c5ee704457fcf.svg",
+    "static/media/icon-calendar.svg": "/FM-IntroSection/static/media/icon-calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/icon-todo.svg": "/FM-IntroSection/static/media/icon-todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
+    "static/media/icon-close-menu.svg": "/FM-IntroSection/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "static/media/icon-menu.svg": "/FM-IntroSection/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
+    "main.b5f70641.css.map": "/FM-IntroSection/static/css/main.b5f70641.css.map",
+    "main.6bc613d2.js.map": "/FM-IntroSection/static/js/main.6bc613d2.js.map",
+    "787.169f9516.chunk.js.map": "/FM-IntroSection/static/js/787.169f9516.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5f70641.css",
+    "static/js/main.6bc613d2.js"
+  ]
+}
