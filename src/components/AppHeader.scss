@@ -1,13 +1,60 @@
-.app-header-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
+@import "../styles/Styles.scss";
 
-    &__logo {
-        padding: 1rem;
+@media all and (max-width: $MOBILE) {
+    .app-header-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+
+        &__logo {
+            padding: 1rem;
+        }
+
+        &__menu {
+            padding: 1rem;
+        }
     }
 
-    &__menu {
-        padding: 1rem;
+    .menu-slider-overlay {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0);
+        visibility: hidden;
+        transition: 500ms;
+    }
+
+    .menu-slider-overlay.active {
+        background-color: rgba(0, 0, 0, 0.7);
+        visibility: visible;
+    }
+
+    .menu-slider-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 64vw;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        transform: translate3d(64vw, 0, 0);
+        transition: 500ms;
+
+
+        &__close {
+            padding: 1rem;
+        }
+
+        &__close svg {
+            float: right;
+        }
+    }
+
+    .menu-slider-container.active {
+        transform: translate3d(0vw, 0, 0);
     }
 }

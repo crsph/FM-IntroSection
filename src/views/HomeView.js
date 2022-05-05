@@ -5,15 +5,17 @@ import { ReactComponent as MakerLogo } from "../assets/client-maker.svg";
 import { ReactComponent as MeetLogo } from "../assets/client-meet.svg";
 import ImageHeroDesktop from "../assets/image-hero-desktop.png";
 import ImageHeroMobile from "../assets/image-hero-mobile.png";
-import NavBar from "../components/NavBar";
 import AppHeader from "../components/AppHeader";
+import NavBar from "../components/NavBar";
 import "./HomeView.scss";
 
 export default function HomeView() {
   return (
     <>
       <NavBar />
-      <AppHeader />
+      <div className="app-header">
+        <AppHeader />
+      </div>
 
       <div className="home-content-container">
         <div className="left-content-container">

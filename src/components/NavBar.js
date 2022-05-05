@@ -7,7 +7,7 @@ import {
   AboutCategory,
   CareersCategory,
   CompanyCategory,
-  FeaturesCategory
+  FeaturesCategory,
 } from "./NavBarItems";
 
 export default function NavBar() {

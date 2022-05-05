@@ -29,7 +29,7 @@
     padding: 1rem 0;
     border-radius: 10px;
     border: 0;
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
 }
 
 .dropdown-item {
@@ -39,4 +39,19 @@
 .icon {
     margin-right: 1rem;
     background-color: transparent;
+}
+
+@media all and (max-width: $MOBILE) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .dropdown-menu {
+        position: unset !important;
+        transform: none !important;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: $ALMOST_WHITE;
+        padding: .5rem 0 .5rem 1.5rem;
+    }
 }

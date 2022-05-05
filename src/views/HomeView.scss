@@ -64,6 +64,10 @@
     width: 25vw;
 }
 
+.app-header {
+    display: none;
+}
+
 @media all and (max-width: $MOBILE) {
     .home-content-container {
         display: grid;
@@ -117,5 +121,9 @@
         svg {
             transform: scale(0.7);
         }
+    }
+
+    .app-header {
+        display: block;
     }
 }

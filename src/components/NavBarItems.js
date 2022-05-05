@@ -1,10 +1,10 @@
 import React from "react";
 import { Nav, NavDropdown } from "react-bootstrap";
-import "./NavBarItems.scss";
 import { ReactComponent as CalendarIcon } from "../assets/icon-calendar.svg";
 import { ReactComponent as PlanningIcon } from "../assets/icon-planning.svg";
 import { ReactComponent as RemindersIcon } from "../assets/icon-reminders.svg";
 import { ReactComponent as TodoIcon } from "../assets/icon-todo.svg";
+import "./NavBarItems.scss";
 
 const featureNavItems = [
   { key: "todo-list", icon: TodoIcon, name: "Todo List" },
@@ -24,9 +24,9 @@ function FeaturesCategory() {
     <NavDropdown title="Features">
       {featureNavItems.map((featureItems) => {
         return (
-          <NavDropdown.Item eventKey={featureItems.key}>
-              <featureItems.icon className="icon"/>
-              {featureItems.name}
+          <NavDropdown.Item key={featureItems.key}>
+            <featureItems.icon className="icon" />
+            {featureItems.name}
           </NavDropdown.Item>
         );
       })}
@@ -39,7 +39,7 @@ function CompanyCategory() {
     <NavDropdown title="Company">
       {companyNavItems.map((companyItems) => {
         return (
-          <NavDropdown.Item eventKey={companyItems.key}>
+          <NavDropdown.Item key={companyItems.key}>
             {companyItems.name}
           </NavDropdown.Item>
         );
