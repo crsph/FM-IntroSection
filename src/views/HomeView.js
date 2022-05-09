@@ -11,7 +11,7 @@ import "./HomeView.scss";
 
 export default function HomeView() {
   return (
-    <>
+    <main>
       <NavBar />
       <div className="app-header">
         <AppHeader />
@@ -49,6 +49,6 @@ export default function HomeView() {
           />
         </div>
       </div>
-    </>
+    </main>
   );
 }
